@@ -1,0 +1,111 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 19, 19);
+}
+
+.header {
+    background-color: black;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(22, 177, 192);
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header button {
+    justify-content: right;
+    display: flex;
+    margin: 15px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    color: rgb(22, 177, 192);
+    text-align: center;
+}
+
+.titulo hr {
+    text-align: center;
+    width: 80%;
+}
+
+.conteudo {
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.descricao-imagemI,
+.descricao-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.descricao-imagem p,
+.descricao-imagemI p {
+    width: 80%;
+    font-size: 20px;
+}
+
+.projeto-arduino-2,
+.java,
+.imagem {
+    border: 2px solid rgb(255, 255, 255);
+    height: 300px;
+    width: 80%;
+}
+
+.b {
+    color: rgb(22, 177, 192);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .conteudo,
+    .java,
+    .projeto-arduino-2,
+    .imagem {
+        width: 90%;
+    }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/bd.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <h3>Banco de Dados</h3>
+
+        <div>
+            <button class="home" onclick="voltarHome('')">Home</button>
+        </div> 
+    </header>
+
+    <div class="titulo">
+        <h1>Banco de Dados<hr></h1>
+    </div>
+
+    <div class="center">
+        <div class="conteudo">
+            <div class="titulo">
+                <h2>Súmario <hr></h2>
+            </div>
+            <p> 
+                Já nesse tema vimos um pouco sobre os bancos de dados, lugares onde o próprio nome já diz, feito para você armazenar dados, e é muito util e importantissimo nas
+                aplicações de hoje em dia. Podemos contar com bancos relacionais e não relacionais, usamos o SLQ uma linguagem de consulta e começamos no finalzinho do bismetre a 
+                ver o NOsql uma parte não estruturada, onde vamos explicar a baixo cada uma a relacional e não relacional, mas basicanmente alem de fazer consultas ele pode deletar, editar, excluir
+                e criar relações entre elas podemos criar diagramas, usamos o site <b>draw.io</b> para criar, é importente criar antes para poder manter um código organizado.
+                Existem padronizações vistas em aula que ajudam a deixar o banco de dados mais legivel e ocupar menos espaço a melhorar a relação e segurança.
+            </p>
+        </div>
+
+        <div class="center">
+            <div class="conteudo">
+                <div class="titulo">
+                    <h2>Escolha <hr></h2>
+                </div>
+                <p> 
+                    Lembrando um ponto muito importante a escolha de qual você irá usar depende muito da sua aplicação e como você guardará os dados.
+                    Isso é um ponto a ser definido por você ou pela sua equipe depois em conjunto e oque será melhor para aplicação e qual tipo vai atender
+                    com mais eficaz a aplicação se o <b>SQL</b> ou o <b>NO SQL</b>.
+                </p>
+            </div>
+
+        <div class="conteudo">
+            <div class="titulo">
+                <h2>SQL<hr></h2>
+            </div>
+
+            
+            <div class="descricao-imagem">
+                <img src="../imgs/SQL.jpg" alt="imagem" class="java">
+                <p> 
+                    O <b>SQL</b> vai ser usado em bancos relacionais, vai utilzar um esquema 
+                    rigido de tabelas com linhas e colunas, consultas bem estruturas usando os padrões ensinado em
+                    aula e que estão no notion para manipular os dados. Exemplos de bancos relacionais são
+                    <b>MySQL, PostgreSQL, Oracle, SQL Server</b>.
+                </p>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <div class="titulo">
+                <h2>NO SQL<hr></h2>
+            </div>
+
+            
+            <div class="descricao-imagemI">
+                <img src="../imgs/NOSQL.jpg" alt="imagem" class="java">
+                <p> 
+                    O <b>NO SQL</b> são os bancos relacionais temos como exemplo <b>MongoDB, Cassandra, Redis, Couchbase, Neo4j</b>
+                    é mais flexivel escalavel para grandes volumes muito bom para trabalhar com dados mais complexos como fotos,videos e assim
+                    por diante, Não possui esquema rígido, permitindo adição de campos sem alterar a estrutura, ele tem um formato bem parecido com
+                    um json e é muito usado em aplicações web, Big Data, IoT, análise de dados em tempo real.
+               </p>
+            </div>
+
+            <div class="conteudo">
+                <div class="titulo">
+                    <h2>Comandos principais em SQL<hr></h2>
+                </div>
+    
+                
+                <div class="descricao-imagemI">
+                    
+                <p>DDL (Data Definition Language)
+                    CREATE: Utilizado para criar novas tabelas, bancos de dados, índices ou visões.br
+                    <br><br>
+                    ALTER: Usado para modificar a estrutura de uma tabela existente.
+                    <br><br>
+                    DROP: Utilizado para remover tabelas, bancos de dados, índices ou visões.
+                    <br><br>
+                    - DML (Data Manipulation Language)
+                    <br><br>
+                    SELECT: Utilizado para consultar e recuperar dados de uma tabela. <br><br>
+                    INSERT: Usado para inserir novos registros em uma tabela. <br><br>
+                    UPDATE: Utilizado para atualizar registros existentes em uma tabela. <br><br>
+                    DELETE: Usado para remover registros de uma tabela. <br><br>
+                    - DCL (Data Control Language) <br><br>
+                    GRANT: Utilizado para conceder permissões a usuários. <br><br>
+                    REVOKE: Usado para revogar permissões concedidas a usuários. <br><br>
+                    - TCL (Transaction Control Language) <br><br>
+                    COMMIT: Utilizado para confirmar uma transação. <br><br>
+                    ROLLBACK: Usado para desfazer uma transação. <br><br>
+                    SAVEPOINT: Utilizado para criar um ponto de salvamento dentro de uma transação.</p> <br><br>
+                </div>
+
+                <div class="conteudo">
+                    <div class="titulo">
+                        <h2>Comandos principais em NoSQL (MongoDB)<hr></h2>
+                    </div>
+        
+                    
+                    <div class="descricao-imagemI">
+                        <p>
+                            Inserção de documentos: Operação usada para adicionar novos documentos a uma coleção.<br><br>
+Consulta de documentos: Operação para recuperar documentos que atendem a critérios específicos de uma coleção.<br><br>
+Atualização de documentos: Operação para modificar documentos existentes em uma coleção.<br><br>
+Remoção de documentos: Operação para deletar documentos de uma coleção.<br><br>
+Comandos de indexação: Operações para criar ou remover índices em coleções para otimizar consultas.<br><br>
+Operações de agregação: Operações avançadas para processar e analisar dados em coleções, como agrupamentos e somas.<br><br>
+
+                        </p>
+                 
+                    </div>
+
+        </div>
+
+        </div>
+    </div>
+    <div class="footer">.</div>
+
+    <script src="../js/java.js"></script>
+</body>
+</html>
