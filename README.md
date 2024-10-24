@@ -1,6 +1,6 @@
-# SAMUEl
+# SAMUEL
 
-O projeto foi desenvolvido em html e css e javascript usando todas as regras tanto semantico, foi interessante pois eu aprendi muito com o projeto 
+O projeto foi desenvolvido em html e css e javascript usando todas as regras, foi interessante pois eu aprendi muito com o projeto 
 
 # instalação
 
